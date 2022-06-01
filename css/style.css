@@ -1,90 +1,116 @@
 /* Top banner  */
 
-.top-banner {
-    height: 60px;
-    background-color: #2c3e50;
+nav {
+  background-color: #2c3e50;
+}
+.nav-link {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+
+/* First section  */
+
+.mc_green_section {
+  background-color: #1abc9c;
+}
+
+.mc_blue_section {
+  background-color: #3a546d;
+}
+
+.mc_deep_blue_section {
+  background-color: #2c3e50;
+}
+
+.avatar {
+  width: 180px;
+  height: auto;
+}
+
+.text_color_1 {
+  color: white;
+}
+
+.text_color_2 {
+  color: rgb(25, 25, 25);
+}
+
+/* Separator  */
+
+.bi-star-fill {
+  font-size: 25px;
+  color: white;
+}
+
+#blue-star {
+  color: #2c3e50;
+}
+
+#blue-star-2 {
+  color: #2c3e50;
+}
+
+.separator {
+  text-align: center;
+  width: 23%;
+  display: inline-block;
+  background-color: white;
+  border: none;
+  height: 3px;
+  border-radius: 25px;
+  opacity: 1;
+}
+
+.separator-2 {
+  text-align: center;
+  width: 23%;
+  display: inline-block;
+  background-color: #2c3e50;
+  border: none;
+  height: 3px;
+  border-radius: 25px;
+  opacity: 1;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.fa-download {
+  color: white;
+}
+
+.footer-icons {
+  font-size: 15px;
+}
+
+.fa-brands {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.copy-footer {
+  font-size: 11px;
+}
+
+@media all and (min-width: 768px) {
+  .mc_h1 {
+    font-size: 45px;
   }
-  
-  /* First section  */
-  
+
+  .mc_h5 {
+    font-size: 35px;
+  }
   .mc_green_section {
-    background-color: #1abc9c;
+    padding-bottom: 20px;
   }
-  
-  .mc_blue_section {
-    background-color: #3a546d;
-  }
-  
-  .mc_deep_blue_section {
-    background-color: #2c3e50;
-  }
-  
-  .avatar {
-    width: 180px;
-    height: auto;
-  }
-  
-  .text_color_1 {
-    color: white;
-  }
-  
-  .text_color_2 {
-    color: rgb(25, 25, 25);
-  }
-  
-  .bi-star-fill {
-    font-size: 25px;
-    color: white;
-  }
-  
-  #blue-star {
-    color: #2c3e50;
-  }
-  
-  #blue-star-2 {
-    color: #2c3e50;
-  }
-  
-  .separator {
-    text-align: center;
-    width: 20%;
-    display: inline-block;
-    background-color: white;
-    border: none;
-    height: 3px;
-    border-radius: 25px;
-    opacity: 1;
-  }
-  
-  .separator-2 {
-    text-align: center;
-    width: 20%;
-    display: inline-block;
-    background-color: #2c3e50;
-    border: none;
-    height: 3px;
-    border-radius: 25px;
-    opacity: 1;
-  }
-  
-  .left {
+  .float {
     float: left;
   }
-  
-  .right {
-    float: right;
-  }
-  
-  .fa-download {
-    color: white;
-  }
-  
-  .footer-icons {
-    font-size: 32px;
-    letter-spacing: 15px;
-  }
-  
-  .copy-footer {
-    font-size: 11px;
-  }
-  
+}

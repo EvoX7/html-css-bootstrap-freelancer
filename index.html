@@ -19,18 +19,42 @@
 
     <!-- Top banner  -->
     <nav>
-      <div class="top-banner"></div>
+
+      <nav class="navbar navbar-dark fw-bold fixed-top navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" justify-content-end collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">PORTFOLIO<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
     </nav>
   </header>
 
   <!-- First section  -->
-  <section class="mc_green_section">
+  <section class="mc_green_section mt-5 ">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 text-center">
           <img class="img-fluid avatar mt-3 mb-3" src="./img/avatar.svg" alt="avatar">
-          <h1 class="text_color_1 fw-bold">START BOOTSTRAP</h1>
-          <div class="col-8 offset-2 text-center">
+          <h1 class="text_color_1 fw-bold mc_h1">START BOOTSTRAP</h1>
+          <div class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-4 offset-md-4">
             <hr class="separator left ms-5">
             <i class="bi bi-star-fill"></i>
             <hr class="separator right me-5">
@@ -47,20 +71,20 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 text-center">
-          <h5 class="fw-bold mt-4 mb-4">PORTFOLIO</h5>
-          <div class="col-8 offset-2 text-center">
+          <h5 class="fw-bold mt-4 mb-4 mc_h5">PORTFOLIO</h5>
+          <div class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-4 offset-md-4">
             <hr class="separator-2 left ms-5">
             <i id="blue-star" class="bi bi-star-fill"></i>
             <hr class="separator-2 right me-5">
           </div>
           <div class="row">
             <div class="col-12">
-              <img class="img-fluid rounded mt-4" src="./img/cabin.png" alt="cabin">
-              <img class="img-fluid rounded mt-4" src="./img/cake.png" alt="cake">
-              <img class="img-fluid rounded mt-4" src="./img/circus.png" alt="circus">
-              <img class="img-fluid rounded mt-4" src="./img/game.png" alt="game">
-              <img class="img-fluid rounded mt-4" src="./img/safe.png" alt="safe">
-              <img class="img-fluid rounded mt-4 mb-4" src="./img/submarine.png" alt="submarine">
+              <img class="img-fluid rounded mt-4 cards" src="./img/cabin.png" alt="cabin">
+              <img class="img-fluid rounded mt-4 cards" src="./img/cake.png" alt="cake">
+              <img class="img-fluid rounded mt-4 cards" src="./img/circus.png" alt="circus">
+              <img class="img-fluid rounded mt-4 cards" src="./img/game.png" alt="game">
+              <img class="img-fluid rounded mt-4 cards" src="./img/safe.png" alt="safe">
+              <img class="img-fluid rounded mt-4 mb-4 cards" src="./img/submarine.png" alt="submarine">
             </div>
           </div>
         </div>
@@ -74,34 +98,32 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <div class="col-8 offset-2">
-            <h5 class="text_color_1 fw-bold mt-4 mb-4 text-center">ABOUT</h5>
-            <div>
-              <hr class="separator left ms-5">
-              <i class="bi bi-star-fill ms-2"></i>
-              <hr class="separator right me-5">
+          <h5 class="text_color_1 fw-bold mt-4 mb-4 text-center mc_h5">ABOUT</h5>
+          <div class="col-12 col-sm-8 offset-sm-2 col-md-4 offset-md-4 text-center">
+            <hr class="separator left ms-5">
+            <i class="bi bi-star-fill "></i>
+            <hr class="separator right me-5">
+          </div>
+          <div class="row">
+            <div class="col-8 offset-2 col-md-4 m-auto ">
+              <p class="text_color_1 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quis
+                delectus
+                vitae iste
+                voluptatibus incidunt sunt. Iam quam delibneram.
+              </p>
             </div>
-            <p class="text_color_1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quis
-              delectus
-              vitae iste
-              voluptatibus incidunt sunt. Fugit, accusantium ipsa incidunt minus nisi laborum voluptatum
-              id
-              repudiandae, non, assumenda voluptatem tenetur.
-            </p>
+            <div class="col-8 offset-2 col-md-4 m-auto ">
+              <p class="text_color_1">
+                Sequi deleniti quam molestiae maiores odit velit? Odio doloribus id molestias, sit aut
+                assumenda
+                suscipit asperiores, alias eius.
+              </p>
+            </div>
           </div>
-          <div class="col-8 offset-2">
-            <p class="text_color_1">
-              Sequi deleniti quam molestiae maiores odit velit? Odio doloribus id molestias, sit aut
-              assumenda
-              suscipit asperiores, alias eius quisquam omnis vitae cum dolorem vero, nostrum eum hic
-              optio.
-              Natus,
-              labore.
-            </p>
-            <button type="button" class="btn btn-outline-warning ms-5 mb-4">
-              <i class="fa-solid fa-download"></i><span class="text_color_1 ms-1">Download</span></button>
-          </div>
-
+        </div>
+        <div class="col-6 offset-4 col-md-4 offset-md-5 mt-2">
+          <button type="button" class="btn btn-outline-warning mb-4">
+            <i class="fa-solid fa-download"></i><span class="text_color_1 ms-1">Download</span></button>
         </div>
       </div>
     </div>
@@ -111,27 +133,41 @@
   <section>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 text-center">
-          <h5 class="fw-bold mt-5 mb-4">CONTACT ME</h5>
-          <div class="col-8 offset-2 text-center">
+        <div class="col-12">
+          <h5 class="fw-bold mt-5 mb-4 text-center">CONTACT ME</h5>
+          <div class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-4 offset-md-4 text-center">
             <hr class="separator-2 left ms-5">
-            <i id="blue-star-2" class="bi bi-star-fill"></i>
+            <i id="blue-star-2" class="bi bi-star-fill "></i>
             <hr class="separator-2 right me-5">
           </div>
           <div class="row">
-            <div class="col-12">
-              <div class="col-8 offset-2">
-                <p>
-                  Sequi deleniti quam molestiae maiores odit velit? Odio doloribus id molestias, sit
-                  aut
-                  assumenda
-                  suscipit asperiores, alias eius quisquam omnis vitae cum dolorem vero, nostrum eum
-                  hic
-                  optio.
-                  Natus,
-                  labore.
-                </p>
-              </div>
+            <div class="col-8 offset-2">
+              <form>
+
+                <!-- Nome  -->
+                <div class="mb-1">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control form-control-md form-control-lg" id="name" >
+                </div>
+
+                <!-- Email  -->
+                <div class="mb-1">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control form-control-md form-control-lg" id="exampleInputEmail1">
+                </div>
+                <!-- Phone  -->
+                <div class="mb-1">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input type="tel" class="form-control form-control-md form-control-lg" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+
+                <!-- Text Area -->
+                <div class="form-group mb-3">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control form-control-md form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn mc_green_section text_color_1">Send</button>
+              </form>
             </div>
           </div>
         </div>
@@ -139,8 +175,8 @@
     </div>
   </section>
 
-  <!-- Fifth section  -->
-  <section class="mc_blue_section">
+  <!-- Footer  -->
+  <footer class="mc_blue_section mt-3">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 text-center text_color_1">
@@ -152,7 +188,8 @@
               <p>2215 John Daniel Drive Clark, MO 54243</p>
 
               <h6 class="mt-5 fw-bold">AROUND THE WEB</h6>
-              <span class="footer-icons"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-google-plus-g"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin-in"></i></span>
+              <span class="footer-icons"><i class="fa-brands fa-facebook rounded-circle me-1"></i><i class="fa-brands fa-google-plus-g rounded-circle px-2"></i>
+                <i class="fa-brands fa-twitter rounded-circle"></i><i class="fa-brands fa-linkedin-in rounded-circle ms-1"></i></span>
 
               <h6 class="mt-5 fw-bold">ABOUT FREELANCER</h6>
               <p class="mb-5">Freelance is a free to use, open source Bootstrap theme, created by <a href="#" class="link-warning text-decoration-none">Start Bootstrap</a>.</p>
@@ -162,22 +199,24 @@
         </div>
       </div>
     </div>
+    <!-- Second Footer  -->
+    <div class="mc_deep_blue_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-8 offset-2 text-center mt-2 mb-4">
+            <p class="text_color_1 fw-bold mt-3 copy-footer">Copywright <i class="fa-regular fa-copyright"></i>
+              FreeLancer Advtenture 2022</p>
 
-  </section>
-
-  <!-- Footer  -->
-  <footer class="mc_deep_blue_section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-8 offset-2 text-center mt-2 mb-4">
-          <p class="text_color_1 fw-bold mt-3 copy-footer">Copywright <i class="fa-regular fa-copyright"></i>
-            FreeLancer Advtenture 2022</p>
-
+          </div>
         </div>
       </div>
     </div>
 
   </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 
