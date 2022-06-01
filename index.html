@@ -5,12 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/style.css">
 
@@ -23,13 +20,11 @@
     <!-- Top banner  -->
     <nav>
 
-      <nav
-        class="navbar navbar-dark fw-bold fixed-top navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light ">
+      <nav class="navbar navbar-dark fw-bold fixed-top navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light ">
         <div class="container">
           <a class="navbar-brand" href="#">START BOOTSTRAP</a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class=" justify-content-end collapse navbar-collapse" id="navbarNav">
@@ -69,6 +64,7 @@
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Second section  -->
@@ -84,12 +80,24 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <img class="img-fluid rounded mt-4 cards" src="./img/cabin.png" alt="cabin">
-              <img class="img-fluid rounded mt-4 cards" src="./img/cake.png" alt="cake">
-              <img class="img-fluid rounded mt-4 cards" src="./img/circus.png" alt="circus">
-              <img class="img-fluid rounded mt-4 cards" src="./img/game.png" alt="game">
-              <img class="img-fluid rounded mt-4 cards" src="./img/safe.png" alt="safe">
-              <img class="img-fluid rounded mt-4 mb-4 cards" src="./img/submarine.png" alt="submarine">
+              <div class="img-align-tab col-md-5 offset-md-1">
+                <img class="img-fluid rounded mt-3" src="./img/cabin.png" alt="cabin">
+              </div>
+              <div class="img-align-tab col-md-5 ">
+                <img class="img-fluid rounded mt-3" src="./img/cake.png" alt="cake">
+              </div>
+              <div class="img-align-tab col-md-5 offset-md-1">
+                <img class="img-fluid rounded mt-3" src="./img/circus.png" alt="circus">
+              </div>
+              <div class="img-align-tab col-md-5">
+                <img class="img-fluid rounded mt-3" src="./img/game.png" alt="game">
+                <div class="img-align-tab col-md-5">
+                  <img class="img-fluid rounded mt-3" src="./img/safe.png" alt="safe">
+                </div>
+                <div class="img-align-tab col-md-5">
+                  <img class="img-fluid rounded mt-3 mb-4" src="./img/submarine.png" alt="submarine">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -110,14 +118,14 @@
             <hr class="separator right me-5">
           </div>
           <div class="row">
-            <div class="col-8 offset-2 col-md-4 m-auto ">
-              <p class="text_color_1 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quis
+            <div class="col-8 offset-2 col-md-4  ">
+              <p class="text_color_1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quis
                 delectus
                 vitae iste
                 voluptatibus incidunt sunt. Iam quam delibneram.
               </p>
             </div>
-            <div class="col-8 offset-2 col-md-4 m-auto ">
+            <div class="col-8 offset-2 t-align col-md-4  ">
               <p class="text_color_1">
                 Sequi deleniti quam molestiae maiores odit velit? Odio doloribus id molestias, sit aut
                 assumenda
@@ -158,21 +166,18 @@
                 <!-- Email  -->
                 <div class="">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control  border-start-0 border-end-0 border-top-0 rounded-0"
-                    id="exampleInputEmail1">
+                  <input type="email" class="form-control  border-start-0 border-end-0 border-top-0 rounded-0" id="exampleInputEmail1">
                 </div>
                 <!-- Phone  -->
                 <div class="">
                   <label for="phone" class="form-label">Phone number</label>
-                  <input type="tel" class="form-control border-start-0 border-end-0 border-top-0 rounded-0" id="phone"
-                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                  <input type="tel" class="form-control border-start-0 border-end-0 border-top-0 rounded-0" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
                 </div>
 
                 <!-- Text Area -->
                 <div class="form-group mb-3">
                   <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea class="form-control border-start-0 border-end-0 border-top-0 rounded-0"
-                    id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea class="form-control border-start-0 border-end-0 border-top-0 rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn py-1 mc_green_section text_color_1">Send</button>
               </form>
@@ -197,15 +202,12 @@
               </div>
               <div class="col-md-4">
                 <h6 class="mt-5 fw-bold">AROUND THE WEB</h6>
-                <span class="footer-icons"><i class="fa-brands fa-facebook rounded-circle me-1"></i><i
-                    class="fa-brands fa-google-plus-g rounded-circle px-2"></i>
-                  <i class="fa-brands fa-twitter rounded-circle"></i><i
-                    class="fa-brands fa-linkedin-in rounded-circle ms-1"></i></span>
+                <span class="footer-icons"><i class="fa-brands fa-facebook rounded-circle me-1"></i><i class="fa-brands fa-google-plus-g rounded-circle px-2"></i>
+                  <i class="fa-brands fa-twitter rounded-circle"></i><i class="fa-brands fa-linkedin-in rounded-circle ms-1"></i></span>
               </div>
               <div class="col-md-4">
                 <h6 class="mt-5 fw-bold">ABOUT FREELANCER</h6>
-                <p class="mb-5">Freelance is a free to use, open source Bootstrap theme, created by <a href="#"
-                    class="link-warning text-decoration-none">Start Bootstrap</a>.</p>
+                <p class="mb-5">Freelance is a free to use, open source Bootstrap theme, created by <a href="#" class="link-warning text-decoration-none">Start Bootstrap</a>.</p>
               </div>
 
             </div>
@@ -228,15 +230,9 @@
 
   </footer>
   <!-- JavaScript Bundle with Popper -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 

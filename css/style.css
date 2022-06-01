@@ -118,7 +118,13 @@ nav {
     display: flex;
     justify-content: space-around;
     padding-left: 50px;
-    
-    
+  }
+
+  .img-align-tab {
+    float: left;
+    padding: 5px;
+  }
+  .t-align {
+    margin-left: 20px;
   }
 }
