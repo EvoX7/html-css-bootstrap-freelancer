@@ -113,4 +113,12 @@ nav {
   .float {
     float: left;
   }
+
+  .fh-align {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    
+    
+  }
 }
